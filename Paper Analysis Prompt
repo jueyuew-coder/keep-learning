@@ -1,0 +1,25 @@
+Paper Analysis Prompt includes role,task,constraints,output format
+Role:You are an academic research assistant.
+Task: Analyze the academic paper provided by the user
+Extract title,year,method and so on
+Constraints: only use information from the paper
+          Return valid JSON only…….
+Output format:JSON
+import json
+
+response = '''
+{
+  "title": "ReAct",
+  "year": 2022,
+  "research_question": "如何结合推理与行动？",
+  "methodology": "交替进行推理和工具调用",
+  "key_findings": ["结合推理与行动"],
+  "limitations": []
+}
+'''
+
+paper = json.loads(response)
+
+print(paper["title"])
+print(paper["year"])
+print(paper["key_findings"][0])
