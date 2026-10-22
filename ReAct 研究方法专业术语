@@ -1,0 +1,23 @@
+英文术语	中文翻译
+ReAct Prompting	ReAct 提示方法
+Few-shot Exemplars	少样本示例
+Trajectory	执行轨迹
+Thought–Action–Observation	思考—行动—观察
+Dense Thought	密集思考
+Baseline	基线方法
+Ablation	消融
+Chain-of-Thought (CoT)	思维链
+Self-Consistency (SC)	自一致性
+Decoding Temperature	解码温度
+Majority Answer	多数票答案
+Internal Knowledge	内部知识
+External Knowledge	外部知识
+Grounded	有事实依据的、由外部信息支撑的
+Hallucination	幻觉
+Heuristics	启发式规则
+Finetuning	微调
+Bootstrapping	自举方法
+Reasoning Trace	推理轨迹
+Imitation Learning	模仿学习
+Reinforcement Learning	强化学习
+
