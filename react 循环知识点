@@ -1,0 +1,6 @@
+•  ReAct = Reasoning + Acting，强调推理与行动相结合。
+•  Thought → Action → Observation 构成基本循环。
+•  Observation 是外部反馈，用于帮助 Agent 调整下一步决策。
+•  ReAct 需要终止条件，例如输出最终答案或达到 max_steps。
+•  ReAct 的价值在于动态决策，而不只是能够调用工具。
+
